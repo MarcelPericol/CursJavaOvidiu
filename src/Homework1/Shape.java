@@ -2,17 +2,17 @@ package Homework1;
 
 public class Shape {
 	public Shape(int lenght) {
-		int x = calculateSquareArea(lenght);
-		System.out.println(x);
+		//int x = calculateSquareArea(lenght);
+		System.out.println(calculateSquareArea(lenght));
 	}	
 	public Shape(int lenght, int width) {
-		int x = calculateRectangleArea(lenght, width);
-		System.out.println(x);
+		//int x = calculateRectangleArea(lenght, width);
+		System.out.println(calculateRectangleArea(lenght, width));
 	}
 	public Shape(double radius) {
 		
-		double x = radius * radius * Math.PI;
-		System.out.println(x);
+		//double x = radius * radius * Math.PI;
+		System.out.println(radius * radius * Math.PI);
 	}
 	public int calculateSquareArea(int lenght) {
 		return lenght * lenght;	
