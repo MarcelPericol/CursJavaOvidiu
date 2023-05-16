@@ -24,6 +24,26 @@ public class ParSauImpar {
 			System.out.println(number + " : is odd !");
 			
 		}
+		
+		/*
+		 * @Test(priority = 1)
+		 * public void testceva(){
+		 * metoda1 (metode de framework)
+		 * metoda2
+		 * ....
+		 * }
+		 * 
+		 * @Test(priority =2 , dependsOnMethod = "testceva")
+		 * public void testaltceva(){
+		 * metoda1 (metode de framework)
+		 * metoda2
+		 * ....
+		 * }
+		 * 
+		 * 
+		 */
+		
+		
 	}
 	
 }
