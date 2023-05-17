@@ -10,12 +10,15 @@ public class IfElse1 {
 		scan.close();
 	}
 	public void checkAge() {	
-			if(age < 18) {
+			if(age < 18 && age > 0) {
 				System.out.println("Esti minor !");	
 			}else if(age >= 18 && age <= 65){
 				System.out.println("Esti adult !");
-			}else {
+			}else if (age > 65) {
 				System.out.println("Esti batran !");
+			}
+			else {
+				System.out.println("Varsta nu poate fi un numar negativ !");
 			}
 	}
 }
