@@ -9,8 +9,7 @@ public class IfElse1 {
 		age = scan.nextInt();
 		scan.close();
 	}
-	public void checkAge() {
-		//9 8 3	
+	public void checkAge() {	
 			if(age < 18) {
 				System.out.println("Esti minor !");	
 			}else if(age >= 18 && age <= 65){
