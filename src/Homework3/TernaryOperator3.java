@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TernaryOperator3 {
 	int punctaj;
 	String calificativ;
-	
+	String rezultat;	
 	public void askPunctaj() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Te rog sa introduci punctajul obtinut : ");
@@ -12,7 +12,9 @@ public class TernaryOperator3 {
 		calificativ = (punctaj >= 90)?"FB":(punctaj >= 80? "B": "S");
 	}
 	public void valoareRezultat() {
-		if (punctaj >= 0) {
+		rezultat = (calificativ=="FB")?"Ai primit: FoarteBine !":(calificativ=="B"?"Ai primit: Bine !":"Ai primit: Suficient !");
+		System.out.println(rezultat);
+		/*if (punctaj >= 0) {
 			if (calificativ == "FB") {
 			System.out.println("Ai primit : FoarteBine");
 			}
@@ -24,6 +26,6 @@ public class TernaryOperator3 {
 			}
 		}
 		else {System.out.println("Valoarea punctajului nu este valida !");
-		}
+		}*/
 	}
 }
