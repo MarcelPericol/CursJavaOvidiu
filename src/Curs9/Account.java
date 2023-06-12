@@ -9,7 +9,5 @@ public class Account {
 			throw new InvalidAmountException(amount + " is not a valid amount");
 		}
 		balance = balance + amount;
-		}
-	
-	
+		}	
 }
