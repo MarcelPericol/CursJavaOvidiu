@@ -1,4 +1,4 @@
-package curs6;
+package curs06;
 
 import java.util.Scanner;
 

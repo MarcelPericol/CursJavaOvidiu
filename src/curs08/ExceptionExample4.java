@@ -1,4 +1,4 @@
-package curs8;
+package curs08;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

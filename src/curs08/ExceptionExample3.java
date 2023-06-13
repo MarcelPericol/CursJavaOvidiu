@@ -1,4 +1,4 @@
-package curs8;
+package curs08;
 
 public class ExceptionExample3 {
 

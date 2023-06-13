@@ -1,4 +1,4 @@
-package curs7;
+package curs07;
 
 import java.util.Random;
 
