@@ -1,4 +1,4 @@
-package Curs10;
+package curs10;
 
 import java.util.HashSet;
 import java.util.Iterator;

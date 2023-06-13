@@ -1,4 +1,4 @@
-package Curs10;
+package curs10;
 //import java.util.StringBuilder;
 
 public class StringBuilderExample {

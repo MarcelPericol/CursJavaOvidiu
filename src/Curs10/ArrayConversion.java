@@ -1,4 +1,4 @@
-package Curs10;
+package curs10;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
