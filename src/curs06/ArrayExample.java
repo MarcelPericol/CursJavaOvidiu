@@ -4,6 +4,8 @@ public class ArrayExample {
 
 	public static void main(String[] args) {
 
+			
+		
 		String[] textArray =  new String[5];
 	//  String[] textArray = {null , null, null, null, null};
 	//  index : 				0      1     2     3     4

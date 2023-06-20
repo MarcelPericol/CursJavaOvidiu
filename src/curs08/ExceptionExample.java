@@ -8,11 +8,12 @@ public class ExceptionExample {
 		
 		try {
 			System.out.println("Inainte de eroare");
-			System.out.println(week[9]);
+			System.out.println(week[8]);
 			System.out.println("Dupa eroare");
 		}catch(ArrayIndexOutOfBoundsException obj) {
 			obj.printStackTrace();
 			System.out.println("Ai incercat sa accesezi un element in afara array-ului!");
+			//throw new ArrayIndexOutOfBoundsException();
 		}
 			
 		for(String day : week) {

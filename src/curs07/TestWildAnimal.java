@@ -27,7 +27,7 @@ public class TestWildAnimal {
 		 */
 		WildAnimal simba = new Lion();
 		simba.makeSound();
-		((Lion)simba).eatMeat();
+		((Lion)simba).eatMeat();		
 		
 	}
 
