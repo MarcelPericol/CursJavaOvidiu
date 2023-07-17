@@ -11,6 +11,7 @@ public class MillionDollarTest {
 		System.out.println("Te rog sa introduci numarul de zile : ");
 		int numarZile = scan.nextInt();
 		double sumaFinala = sumaStart;
+		System.out.println(sumaStart);
 		
 		for(int i=1; i < numarZile; i++) {
 			sumaStart *= 2;
